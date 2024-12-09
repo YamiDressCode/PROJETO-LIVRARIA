@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Livraria - Manga</title>
+    <link rel="stylesheet" href="styleLivros.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <meta name="description" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="img/baixados.png" alt="" class="imgIcon" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link" href="login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="cadastro.html">Cadastro</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false" id="navdrop" style="align-items: left 50%">
+                          Gêneros
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="hq.html">HQ</a></li>
+                          <li><a class="dropdown-item" href="manga.html">Manga</a></li>
+                          <li>
+                              <a class="dropdown-item" href="romance.html">Romance</a>
+                          </li>
+                          <li>
+                              <a class="dropdown-item" href="suspense.html">Suspense</a>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+              
+              <input 
+              type="text" 
+              id="barra-pesquisa" 
+              placeholder="Digite gênero, autor ou título" 
+              style="width: 100%; max-width: 400px; padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);">
+              <button 
+              id="pesquisar" 
+              style="padding: 10px 15px; font-size: 16px; color: white; background-color: #007bff; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;"
+              onmouseover="this.style.backgroundColor='#0056b3'" 
+              onmouseout="this.style.backgroundColor='#007bff'"
+            >Pesquisar
+          </button>
+
+          </div>
+      </div>
+  </nav>
+   
+
+    
+<center>
+<h1>Manga</h1>
+</center>
+
+    <div class="card-group">
+      <div class="card">
+        <img src="img/Mangá/OIP.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Vagabound</h5>
+          <p class="card-text">
+            Em 1600, Takezo e Matahachi deixam a vila para lutar na Batalha de
+            Sekigahara. Buscando fama, enfrentam derrotas e desafios. Acompanhe
+            a jornada do grande samurai Miyamoto Musashi!
+          </p>
+          <p class="card-text">
+            <small class="text-body-secondary"> <strong>InoueTakehiko  </strong>  </small>
+          </p>
+
+          <div class="d-grid gap-2">
+            <button class="comprar" data-idlivro="28">Comprar</button>
+            <input type="number" class="quantidade" value="1" min="1" max="5" />
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="card">
+        <img src="img/Mangá/51F-1D2MHgL.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Initial D</h5>
+          <p class="card-text">
+            Takumi Fujiwara, entregador de tofu, domina técnicas de corrida.
+            Seus amigos não percebem, ocupados com o Akina Speed Stars. Quando
+            os Red Suns aparecem, quem dirige o carro fantasma?
+          </p>
+          <p class="card-text">
+            <small class="text-body-secondary"> <strong> Shuichi Shigeno </strong> </small>
+          </p>
+
+          <div class="d-grid gap-2">
+            <button class="comprar" data-idlivro="29">Comprar</button>
+            <input type="number" class="quantidade" value="1" min="1" max="5" />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/Mangá/R.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Dan da Dan</h5>
+          <p class="card-text">
+            Momo acredita em espíritos, enquanto Okarun nega. Eles tentam provar
+            suas crenças: Momo visita um hospital assombrado e Okarun, um túnel.
+            Começa uma história de amor bizarra!
+          </p>
+          <p class="card-text">
+            <small class="text-body-secondary"> <strong> Yukinobu Tatsu </strong> </small>
+          </p>
+
+          <div class="d-grid gap-2">
+            <button class="comprar" data-idlivro="30">Comprar</button>
+            <input type="number" class="quantidade" value="1" min="1" max="5" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-group">
+      <div class="card">
+        <img src="img/Mangá/OIP (1).jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Jujutsu Kaisen</h5>
+          <p class="card-text">
+            Yuuji Itadori libera uma maldição e entra em um mundo de perigos.
+            Yuta Okkotsu controla um espírito poderoso na Jujutsu High School.
+            Uma jornada épica pelo sobrenatural começa!
+          </p>
+          <p class="card-text">
+            <small class="text-body-secondary"> <strong> Gege Akutami </strong></small>
+          </p>
+          
+          <div class="d-grid gap-2">
+            <button class="comprar" data-idlivro="31">Comprar</button>
+            <input type="number" class="quantidade" value="1" min="1" max="5" />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/Mangá/60776617.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Kengan Ashura</h5>
+          <p class="card-text">
+            Yamashita Kazuo descobre que empresas apostam em lutas de artes
+            marciais. Ele deve gerenciar Tokita Ohma, um jovem lutador. A
+            violência e o drama humano se entrelaçam em Kengan Matches!
+          </p>
+          <p class="card-text">
+            <small class="text-body-secondary"> <strong> Yabako Sandrovich </strong></small>
+          </p>
+           
+          <div class="d-grid gap-2">
+            <button class="comprar" data-idlivro="32">Comprar</button>
+            <input type="number" class="quantidade" value="1" min="1" max="5" />
+        </div>
+      </div>
+    </div>
+
+      <div class="card">
+        <img
+          src="img/Mangá/81QBnq+XgPL._SY342_.jpg"
+          class="card-img-top"
+          alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Baki</h5>
+          <p class="card-text">
+            Condenados à morte se enfrentam em Tóquio em uma arena de artes
+            marciais. Com 60 milhões de cópias, a série BAKI segue Baki Hanma em
+            suas missões. Um novo anime estreia na Netflix!
+          </p>
+          <p class="card-text">
+            <small class="text-body-secondary"> <strong> Keisuke Itagaki </strong></small>
+          </p>
+           
+          <div class="d-grid gap-2">
+            <button class="comprar" data-idlivro="33">Comprar</button>
+            <input type="number" class="quantidade" value="1" min="1" max="5" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="card-group">
+      <div class="card">
+        <img src="img/Mangá/OIP (2).jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">One-punch man</h5>
+          <p class="card-text">
+            Saitama se tornou tão poderoso que derrota qualquer monstro com um
+            único soco, o que o deixou entediado. Agora, ele busca um desafio
+            real para recuperar a emoção de ser um herói!
+          </p>
+          <p class="card-text">
+            <small class="text-body-secondary"> <strong> ONE (história) e Yusuke Murata (arte)</strong></small>
+          </p>
+           
+          <div class="d-grid gap-2">
+            <button class="comprar" data-idlivro="34">Comprar</button>
+            <input type="number" class="quantidade" value="1" min="1" max="5" />
+        </div>
+      </div>
+    </div>
+
+      <div class="card">
+        <img src="img/Mangá/OIP (3).jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Mob Psycho 100</h5>
+          <p class="card-text">
+            Mob, um estudante com poderes sobrenaturais, deseja uma vida normal.
+            No entanto, forças tentam manipulá-lo, enquanto algo poderoso
+            desperta dentro dele, desencadeando uma jornada explosiva!
+          </p>
+          <p class="card-text">
+            <small class="text-body-secondary"> <strong> ONE </strong> </small>
+          </p>
+           
+          <div class="d-grid gap-2">
+            <button class="comprar" data-idlivro="35">Comprar</button>
+            <input type="number" class="quantidade" value="1" min="1" max="5" />
+        </div>
+      </div>
+    </div>
+
+      <div class="card">
+        <img
+          src="img/Mangá/81kE6DCy81L._SL1500_.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Homunculus</h5>
+          <p class="card-text">
+            Nakoshi, morando em seu carro, aceita dinheiro para um procedimento
+            cirúrgico estranho após perder tudo. Ao acordar, ele encara uma nova
+            realidade, revelando mistérios sobrenaturais.
+          </p>
+          <p class="card-text">
+            <small class="text-body-secondary"><strong>Hideo Yamamoto</strong></small>
+          </p>
+           
+          <div class="d-grid gap-2">
+            <button class="comprar" data-idlivro="36">Comprar</button>
+            <input type="number" class="quantidade" value="1" min="1" max="5" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<footer id="footer" style="margin-bottom: -50%;">
+  <ul class="footer">
+    <li class="info">
+      <h2>Contato</h2>
+      <ul class="ul-sem">
+        <li>
+          <h3>E-mail</h3>
+          <p>Livraria@transformers.com.br</p>
+        </li>
+        <li>
+          <h3>Telefone</h3>
+          <p>(61) 9999-9999</p>
+        </li>
+      </ul>
+    </li>
+    <li class="info-site">
+      <h2>Informações</h2>
+      <div class="">
+        <p>Quem somos</p>
+        <p>Política de privacidade</p>
+        <p>Política de troca</p>
+        <p>Prazos de entrega e procedimentos</p>
+      </div>
+    </li>
+    <li>
+      <h2>Siga-nos em nossas redes sociais!</h2>
+      <div class="info-redes">
+        <img src="./img/facebook-logo.svg" alt="" srcset="">
+        <img src="./img/instagram-logo.svg" alt="" srcset="">
+        <img src="./img/inkedin-2.svg" alt="" srcset="">
+      </div>
+    </li>
+  </ul>
+    <p class="direitos">&copy; 2024 Nossa Livraria. Todos os direitos reservados.</p>
+</footer>
+
+<script>
+  document.querySelectorAll('.comprar').forEach(button => {
+button.addEventListener('click', function () {
+  const idlivro = this.getAttribute('data-idlivro'); // Obtém o ID do livro
+  const quantidade = this.parentElement.querySelector('.quantidade').value; // Obtém a quantidade do input
+  const token = localStorage.getItem('authToken'); // Obtém o token armazenado
+
+  if (!token) {
+    alert('Você precisa estar logado para realizar a compra.');
+    return;
+  }
+
+  // Decodifica o payload do token JWT
+  try {
+    const payloadBase64 = token.split('.')[1];
+    const payload = JSON.parse(atob(payloadBase64)); // Decodifica a parte do payload
+    const idcliente = payload.id; // Substitua 'id' pelo nome correto no token
+
+    // Envia a requisição para a API
+    fetch(`http://localhost:3000/compra/${idcliente}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${localStorage.getItem('authToken')}`,
+      },
+      body: JSON.stringify({
+        idlivro: idlivro,
+        estoque: quantidade,
+      }),
+    })
+      .then(response => response.json())
+      .then(data => {
+        console.log('Compra realizada com sucesso:', data);
+        alert('Compra realizada com sucesso!');
+      })
+      .catch(error => {
+        console.error('Erro ao realizar compra:', error);
+        alert('Erro ao realizar compra.');
+      });
+  } catch (error) {
+    console.error('Erro ao decodificar o token:', error);
+    alert('Token inválido. Faça login novamente.');
+  }
+});
+});
+
+
+</script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
+  <script>
+    document.getElementById('pesquisar').addEventListener('click', () => {
+  const parametro = document.getElementById('barra-pesquisa').value.trim();
+
+  if (!parametro) {
+    alert('Digite um termo para buscar.');
+    return;
+  }
+
+  // Redireciona para a página de resultados com o parâmetro na URL
+  window.location.href = `get.html?search=${encodeURIComponent(parametro)}`;
+});
+
+  </script>
+
+
+</html>

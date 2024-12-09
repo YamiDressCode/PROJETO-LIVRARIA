@@ -1,0 +1,341 @@
+
+.imgIcon {
+    width: 100%;
+    height: 100%;
+   
+}
+
+.navbar-brand {
+    width: 86.6px;
+    height: 86.6px;
+}
+
+.container-fluid {
+    background-color: #07264b;
+    margin-top: -10px;
+}
+
+.container-fluid a {
+   color: #ddd;
+}
+
+.nav ul {
+    display: flex;
+    
+}
+
+.nav li {
+    margin: 10%;
+    text-align: center;
+    left: 40%;
+}
+
+
+#navLink {
+    color: #ffffff;
+    position: absolute;
+    left: 84%;
+}
+
+#navLink:hover {
+    color: #198754;
+}
+
+#navLink1 {
+    color: #ffffff;
+    position: absolute;
+    left: 88%;
+}
+
+#navLink1:hover {
+    color: #198754;
+}
+
+#navLink2 {
+    color: #ffffff;
+    position: absolute;
+    left: 94%;
+}
+
+#navLink2:hover {
+    color: #198754;
+}
+
+#navdrop {
+    color: #ffffff;
+    border-color: red;
+}
+
+#navdrop:hover {
+    color: #198754;
+}
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; /* Coloca os itens em uma coluna */
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer li {
+        margin-bottom: 20px;
+    }
+
+    .info-redes img {
+        margin: 0 5px; /* Ajusta o espaçamento das imagens */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .footer h2 {
+        font-size: 18px;
+    }
+
+    .footer h3 {
+        font-size: 14px;
+    }
+
+    .info-redes img {
+        width: 30px; /* Reduz o tamanho dos ícones em telas pequenas */
+    }
+
+    .direitos {
+        font-size: 12px;
+    }
+}
+
+#footer{
+    background-color: #07264b;
+    color: #ffffff;
+}
+
+.footer h2{
+    color: #198754;
+    font-size: 20px;
+    list-style: none;
+}
+
+.footer h3{
+    font-size: 16px;
+    list-style: none;
+}
+
+.info-redes img{
+    width: 40px;
+    height: auto;
+}
+
+.footer{
+    display: flex;
+    justify-content:space-between;
+    padding: 60px 180px;
+    list-style: none;
+}
+
+.direitos{
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.ul-sem{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.inputo{
+    position: absolute;
+    right: 40%;
+    top: 21px;
+    width: 500px;
+
+}
+
+.butao{
+    position: absolute;
+    right: 34%;
+    top: 23px;
+}
+
+#butaopesq a {
+text-decoration: none;
+color: #198754;
+}
+
+#butaopesq:hover a {
+    text-decoration: none;
+    color: #ffffff
+}
+/* Card do livro em destaque */
+.card {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    width: 100%;
+    max-width: 350px; /* Aumentando um pouco o tamanho */
+    margin: 20px auto; /* Centralizando os cards na página */
+    height: 450px; /* Ajustando a altura para os cards ficarem um pouco maiores */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #198754;
+}
+
+/* Imagem no card */
+.imgIcon {
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilizando a navbar e links */
+.navbar-brand {
+    width: 86.6px;
+    height: 86.6px;
+}
+
+.container-fluid {
+    background-color: #07264b;
+    margin-top: -10px;
+}
+
+.container-fluid a {
+   color: #ddd;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li {
+    margin: 10%;
+    text-align: center;
+    left: 40%;
+}
+
+#navLink, #navLink1, #navLink2 {
+    color: #ffffff;
+    position: absolute;
+    transition: color 0.3s;
+}
+
+#navLink:hover, #navLink1:hover, #navLink2:hover {
+    color: #198754;
+}
+
+#navLink1 { left: 88%; }
+#navLink2 { left: 94%; }
+
+#navdrop {
+    color: #ffffff;
+    border-color: red;
+}
+
+#navdrop:hover {
+    color: #198754;
+}
+
+/* Títulos centralizados e estilizados */
+.titulo {
+    margin: 5%;
+    color: #2e2e2e;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilizando a fonte para dar um "uau" */
+.cardc-title {
+    margin-top: 5%;
+    font-size: 1.8rem; /* Aumentando o tamanho da fonte */
+    font-weight: bold;
+    text-align: center;
+    color: #07264b;
+    font-family: 'Montserrat', sans-serif; /* Mudando para uma fonte mais moderna */
+    text-transform: uppercase; /* Colocando o título em maiúsculas para dar mais impacto */
+    letter-spacing: 2px; /* Distanciando as letras para dar um toque mais estiloso */
+}
+
+/* Estilização dos cards */
+.cardc {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgb(243, 242, 242);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardc:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cardc-image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.cardc-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardc-text {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    text-overflow: ellipsis;
+    height: 100%;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .card {
+        max-width: 100%;
+    }
+
+    .cardc {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardc-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .cardc-title {
+        font-size: 1.5rem; /* Ajustando o título para telas pequenas */
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+}

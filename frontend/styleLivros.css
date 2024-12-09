@@ -1,0 +1,290 @@
+.imgIcon {
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.navbar-brand {
+  width: 86.6px;
+  height: 86.6px;
+}
+
+.container-fluid {
+  background-color: #07264b;
+  margin-top: -10px;
+}
+
+.container-fluid a {
+ color: #ddd;
+}
+
+.nav ul {
+  display: flex;
+  
+}
+
+.nav li {
+  margin: 10%;
+  text-align: center;
+  left: 40%;
+}
+
+
+#navLink {
+  color: #ffffff;
+  position: absolute;
+  left: 84%;
+}
+
+#navLink:hover {
+  color: #198754;
+}
+
+#navLink1 {
+  color: #ffffff;
+  position: absolute;
+  left: 88%;
+}
+
+#navLink1:hover {
+  color: #198754;
+}
+
+#navLink2 {
+  color: #ffffff;
+  position: absolute;
+  left: 94%;
+}
+
+#navLink2:hover {
+  color: #198754;
+}
+
+#navdrop {
+  color: #ffffff;
+  border-color: red;
+}
+
+#navdrop:hover {
+  color: #198754;
+}
+
+
+  .container-fluid {
+    background-color: #07264b;
+    margin-top: -10px;
+  }
+  
+  .container-fluid a {
+   color: #ddd;
+  }
+  
+  /* Cartões e Layout */
+.card-group {
+  margin: 3% 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 calc(33.333% - 40px);
+  max-width: calc(33.333% - 40px);
+  margin: 10px;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h5 {
+  font-size: 1.1rem;
+  margin-top: 15px;
+  color: #333;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Responsividade - Card em telas menores */
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 calc(50% - 20px); /* 2 cards por linha */
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    flex: 1 1 100%; /* 1 card por linha */
+  }
+}
+
+  
+    
+  #footer {
+    background-color: #07264b;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  .footer h2 {
+    color: #198754;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .info-redes img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+    gap: 20px;
+    padding: 40px 20px;
+    list-style: none;
+  }
+  
+  .footer li {
+    flex: 1; /* Divide o espaço de forma equilibrada */
+    min-width: 200px; /* Define um tamanho mínimo para cada coluna */
+  }
+  
+  .direitos {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  
+  .ul-sem {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .footer {
+        flex-direction: column; /* Coloca os itens em uma coluna */
+        align-items: center;
+        text-align: center;
+    }
+  
+    .footer li {
+        margin-bottom: 20px;
+    }
+  
+    .info-redes img {
+        margin: 0 5px; /* Ajusta o espaçamento das imagens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+        padding: 20px;
+    }
+  
+    .footer h2 {
+        font-size: 18px;
+    }
+  
+    .footer h3 {
+        font-size: 14px;
+    }
+  
+    .info-redes img {
+        width: 30px; /* Reduz o tamanho dos ícones em telas pequenas */
+    }
+  
+    .direitos {
+        font-size: 12px;
+    }
+  }
+  
+  .inputo{
+    position: absolute;
+    right: 40%;
+    top: 21px;
+    width: 500px;
+  
+  }
+  
+  .butao{
+    position: absolute;
+    right: 34%;
+    top: 23px;
+  }
+  
+  .card-img-top {
+    width: 50%;
+    height: 50%;
+  }
+
+
+#butaoL {
+  background-color: #ffffff;
+  border-color: #198754;
+  color: #198754;
+  border-radius: 0.25rem;
+  }
+
+  #butaoL:hover {
+    background-color: #198754;
+    border-color: #198754;
+    color: #ffffff;
+    border-radius: 0.25rem;
+  }
+
+  #butaopesq a {
+    text-decoration: none;
+    color: #198754;
+    }
+    
+    #butaopesq:hover a {
+        text-decoration: none;
+        color: #ffffff
+    }
+    .card-group button{
+      background-color:#198754 ;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+      border-radius: 5px;
+      border: solid #198754;
+    }
+    .card-group button:hover{
+      background-color:#0c452a ;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+      border-radius: 5px;
+      border: solid #0c452a;
+    }
+    h1{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 4px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+      color: #0c452a;
+    }

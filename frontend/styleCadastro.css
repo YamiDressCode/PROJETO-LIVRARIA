@@ -1,0 +1,227 @@
+
+.imgIcon {
+    width: 100%;
+    height: 100%;
+   
+}
+
+#imgIconc {
+    width: 35px;
+    height: 35px;
+}
+
+.navbar-brand {
+    width: 86.6px;
+    height: 86.6px;
+}
+
+.container-fluid {
+    background-color: #07264b;
+    margin-top: -10px;
+}
+
+.container-fluid a {
+   color: #ddd;
+}
+
+.nav ul {
+    display: flex;
+    
+}
+
+.nav li {
+    margin: 10%;
+    text-align: center;
+    left: 40%;
+}
+
+
+#navLink {
+    color: #ffffff;
+    position: absolute;
+    left: 84%;
+}
+
+#navLink:hover {
+    color: #198754;
+}
+
+#navLink1 {
+    color: #ffffff;
+    position: absolute;
+    left: 88%;
+}
+
+#navLink1:hover {
+    color: #198754;
+}
+
+#navLink2 {
+    color: #ffffff;
+    position: absolute;
+    left: 94%;
+}
+
+#navLink2:hover {
+    color: #198754;
+}
+
+#navdrop {
+    color: #ffffff;
+    border-color: red;
+}
+
+#navdrop:hover {
+    color: #198754;
+}
+
+
+#footer{
+    background-color: #07264b;
+    color: #ffffff;
+}
+
+.footer h2{
+    color: #198754;
+    font-size: 20px;
+    list-style: none;
+}
+
+.footer h3{
+    font-size: 16px;
+    list-style: none;
+}
+
+.info-redes img{
+    width: 40px;
+    height: auto;
+}
+
+.footer{
+    display: flex;
+    justify-content:space-between;
+    padding: 60px 180px;
+    list-style: none;
+}
+
+.direitos{
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.ul-sem{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.inputo{
+    position: absolute;
+    right: 40%;
+    top: 21px;
+    width: 500px;
+
+}
+
+.butao{
+    position: absolute;
+    right: 34%;
+    top: 23px;
+}
+
+#buttonc {
+    background-color: #ffffff;
+    border-color: #198754;
+    color: #198754;
+    margin-top: 5%;
+}
+
+#buttonc:hover {
+    background-color: #198754;
+    border-color: #198754;
+    color: #ffffff;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; /* Coloca os itens em uma coluna */
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer li {
+        margin-bottom: 20px;
+    }
+
+    .info-redes img {
+        margin: 0 5px; /* Ajusta o espaçamento das imagens */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .footer h2 {
+        font-size: 18px;
+    }
+
+    .footer h3 {
+        font-size: 14px;
+    }
+
+    .info-redes img {
+        width: 30px; /* Reduz o tamanho dos ícones em telas pequenas */
+    }
+
+    .direitos {
+        font-size: 12px;
+    }
+}
+
+#butaoInsert {
+        background-color: #ffffff;
+        border-color: #198754;
+        color: #198754;
+        border-radius: 0.25rem;
+        }
+      
+#butaoInsert:hover {
+          background-color: #198754;
+          border-color: #198754;
+          color: #ffffff;
+          border-radius: 0.25rem;
+        }
+
+        #butaoDelet {
+            background-color: #ffffff;
+            border-color: #ff4141;
+            color: #ff4141;
+            border-radius: 0.25rem;
+            margin-top: 3%;
+            }
+          
+    #butaoDelet:hover {
+              background-color: #ff4141;
+              border-color: #ff4141;
+              color: #ffffff;
+              border-radius: 0.25rem;
+              margin-top: 3%;
+            }
+
+            #butaoGet {
+                background-color: #ffffff;
+                border-color: #01b2c3;
+                color: #01b2c3;
+                border-radius: 0.25rem;
+                margin-top: 3%;
+                }
+              
+        #butaoGet:hover {
+                  background-color: #01b2c3;
+                  border-color: #01b2c3;
+                  color: #ffffff;
+                  border-radius: 0.25rem;
+                  margin-top: 3%;
+                }
