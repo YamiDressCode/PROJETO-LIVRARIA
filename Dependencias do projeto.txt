@@ -1,0 +1,17 @@
+npm init -y 
+
+npm install nodemon
+
+npm install express
+
+npm install cors
+
+npm install bcryptjs
+
+npm install jwtwebtokenjs
+
+
+Live Server
+
+Firewall aberto na porta 3000
+
